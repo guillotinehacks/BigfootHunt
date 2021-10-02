@@ -3,11 +3,11 @@ function loadBigFoot() {
 }
 
 function moveBigFoot() {
-  alert('Well done, you found Bigfoot!')
+  alert('Huzzah, you found Bigfoot!')
   var picture = document.getElementById('bigFoot')
 
-  var x = Math.random() * 600
-  var y = Math.random() * 400
+  var x = Math.random() * 750
+  var y = Math.random() * 550
 
   picture.style.top = x + 'px'
   picture.style.left = y + 'px'
